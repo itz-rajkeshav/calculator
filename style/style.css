@@ -1,0 +1,156 @@
+.calc {
+  margin: 5rem auto;
+  width: 18rem;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  background: linear-gradient(
+    0deg,
+    rgb(8, 8, 8) 5%,
+    rgb(11, 11, 11) 23%,
+    rgb(6, 6, 6) 40%,
+    rgba(19, 22, 19, 0.922) 59%,
+    rgba(11, 11, 11, 0.877) 72%,
+    rgba(15, 15, 14, 0.925) 78%,
+    rgb(5, 5, 5) 98%
+  );
+  /* background-color: rgba(9, 9, 9, 0.941); */
+}
+
+.instruction {
+  text-align: center;
+  font-size: 1.4rem;
+  /* font-weight: 900; */
+  color: aliceblue;
+  font-family: "Brush Script MT", cursive;
+  letter-spacing: 3px;
+}
+
+.equal,
+.bracket_open,
+.bracket_close,
+.seven,
+.eight,
+.nine,
+.divide,
+.four,
+.five,
+.six,
+.multiply,
+.one,
+.two,
+.three,
+.minus,
+.zero,
+.dot,
+.percentage,
+.addition,
+.c,
+.input {
+  border-radius: 5px;
+  width: 9.5rem;
+}
+.equal,
+.bracket_open,
+.bracket_close,
+.seven,
+.eight,
+.nine,
+.divide,
+.four,
+.five,
+.six,
+.multiply,
+.one,
+.two,
+.three,
+.minus,
+.zero,
+.dot,
+.percentage,
+.addition,
+.c {
+  padding: 18px;
+  width: 50px;
+  height: 50px;
+  font-size: 1.2rem;
+  font-family: "Brush Script MT", cursive;
+  color: rgb(247, 243, 243);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 1px 5px;
+  /* box-shadow: 2px 1px 5px; */
+}
+.input {
+  height: 40px;
+  box-shadow: 2px 1px 5px inset;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+.first_part,
+.second_part,
+.third_part,
+.fourth_part,
+.fifth_part {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.equal {
+  width: 106px;
+}
+.c {
+  margin-top: px;
+  height: 45px;
+  width: 55px;
+  background-color: rgba(23, 30, 32, 0.932);
+  border-color: rgba(23, 30, 32, 0.932);
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 5px;
+  font-size: 2.5rem;
+}
+.button {
+  padding: 0.45rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.bracket_open,
+.bracket_close,
+.addition,
+.divide,
+.dot,
+.equal,
+.minus,
+.multiply,
+.percentage,
+.zero {
+  background-color: rgba(249, 89, 9, 0.847);
+  border-color: rgba(246, 103, 31, 0.847);
+}
+.eight,
+.seven,
+.nine,
+.four,
+.five,
+.six,
+.one,
+.two,
+.three {
+  background-color: rgba(52, 52, 52, 0.829);
+  border-color: rgba(52, 52, 52, 0.829);
+}
+.input {
+  background-color: rgba(106, 98, 98, 0.829);
+  border-color: rgba(106, 98, 98, 0.829);
+  color: aliceblue;
+}

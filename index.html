@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="calc">
+      <h3 class="instruction">Welcome to calculator:</h3>
+      <div class="top">
+        <div class="button">
+          <input class="input" type="text" readonly />
+          <!-- <p>789</p> -->
+          <button class="c" type="button" value="cr" onclick="cl()">C</button>
+        </div>
+        <div class="first_part">
+          <button
+            class="bracket_open"
+            value="("
+            type="button"
+            onclick="add_to_display('(')"
+          >
+            (
+          </button>
+          <button
+            class="bracket_close"
+            value=")"
+            type="button"
+            onclick="add_to_display(')')"
+          >
+            )
+          </button>
+          <button class="percentage" type="button" value="cr" onclick="del()">
+            <
+          </button>
+          <button
+            class="addition"
+            value="+"
+            type="button"
+            onclick="add_to_display('+')"
+          >
+            +
+          </button>
+        </div>
+        <div class="second_part">
+          <button
+            class="seven"
+            value="7"
+            type="button"
+            onclick="add_to_display('7')"
+          >
+            7
+          </button>
+          <button
+            class="eight"
+            value="8"
+            type="button"
+            onclick="add_to_display('8')"
+          >
+            8
+          </button>
+          <button
+            class="nine"
+            value="9"
+            type="button"
+            onclick="add_to_display('9')"
+          >
+            9
+          </button>
+          <button
+            class="divide"
+            value="/"
+            type="button"
+            onclick="add_to_display('/')"
+          >
+            /
+          </button>
+        </div>
+        <div class="third_part">
+          <button
+            class="four"
+            value="4"
+            type="button"
+            onclick="add_to_display('4')"
+          >
+            4
+          </button>
+          <button
+            class="five"
+            value="5"
+            type="button"
+            onclick="add_to_display('5')"
+          >
+            5
+          </button>
+          <button
+            class="six"
+            value="6"
+            type="button"
+            onclick="add_to_display('6')"
+          >
+            6
+          </button>
+          <button
+            class="multiply"
+            value="*"
+            type="button"
+            onclick="add_to_display('*')"
+          >
+            *
+          </button>
+        </div>
+        <div class="fourth_part">
+          <button
+            class="one"
+            value="1"
+            type="button"
+            onclick="add_to_display('1')"
+          >
+            1
+          </button>
+          <button
+            class="two"
+            value="2"
+            type="button"
+            onclick="add_to_display('2')"
+          >
+            2
+          </button>
+          <button
+            class="three"
+            value="3"
+            type="button"
+            onclick="add_to_display('3')"
+          >
+            3
+          </button>
+          <button
+            class="minus"
+            value="-"
+            type="button"
+            onclick="add_to_display('-')"
+          >
+            -
+          </button>
+        </div>
+        <div class="fifth_part">
+          <button
+            class="zero"
+            value="0"
+            type="button"
+            onclick="add_to_display('0')"
+          >
+            0
+          </button>
+          <button class="dot" value="." onclick="add_to_display('.')">.</button>
+
+          <button class="equal" type="button">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
